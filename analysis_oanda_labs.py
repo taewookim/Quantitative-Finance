@@ -15,7 +15,7 @@ from backfill_data import batch_backfill, separate_bid_ask_midpoint
 from pandas.io.json import json_normalize
 from sklearn.preprocessing import MinMaxScaler
 from statsmodels.tsa.stattools import coint
-apik="3ad86c7125baf271ca0b1be4070f7c79-90291329808b4211f2f43b963ac0fa72"
+apik="ENTER_YOUR_API_KEY"
 
 def parse_args():
 	parser = argparse.ArgumentParser(
